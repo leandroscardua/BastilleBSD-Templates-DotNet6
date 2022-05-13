@@ -1,3 +1,4 @@
-PKG wget
-CMD wget https://github.com/Servarr/dotnet-bsd/releases/download/v6.0.5-125/dotnet-runtime-6.0.5-freebsd-x64.tar.gz
-CMD tar xf dotnet-runtime-6.0.5-freebsd-x64.tar.gz -C /usr/local/bin/
+PKG wget git bash
+CMD git clone https://github.com/sec/dotnet-core-freebsd-source-build.git
+CMD ./dotnet-core-freebsd-source-build/install_tools.sh
+
