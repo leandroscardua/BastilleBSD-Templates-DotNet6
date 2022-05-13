@@ -1,4 +1,3 @@
 PKG wget git bash
-CMD git clone https://github.com/sec/dotnet-core-freebsd-source-build.git
-CMD ./dotnet-core-freebsd-source-build/install_tools.sh | yes
-CMD ./init.sh
+CMD wget https://github.com/sec/dotnet-core-freebsd-source-build/releases/download/6.0.202/dotnet-sdk-6.0.202-freebsd-x64.tar.gz
+CMD tar xf dotnet-sdk-6.0.202-freebsd-x64.tar.gz -C /usr/local/bin/
