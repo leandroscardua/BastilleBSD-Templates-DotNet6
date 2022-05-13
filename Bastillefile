@@ -1,4 +1,4 @@
 PKG wget git bash
 CMD git clone https://github.com/sec/dotnet-core-freebsd-source-build.git
-CMD ./dotnet-core-freebsd-source-build/install_tools.sh
-
+CMD ./dotnet-core-freebsd-source-build/install_tools.sh | yes
+CMD ./init.sh
